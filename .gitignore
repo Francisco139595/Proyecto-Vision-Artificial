@@ -1,0 +1,15 @@
+# Cachés de Python
+__pycache__/
+*.pyc
+
+# Pesos de modelos de IA y binarios
+*.pt
+*.onnx
+*.engine
+*.keras
+*.h5
+
+# Carpetas de imágenes masivas y resultados
+datasets/
+data/
+runs/
