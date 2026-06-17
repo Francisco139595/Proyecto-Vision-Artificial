@@ -6,7 +6,7 @@ def main():
     
     print("Encendiendo cámara web... Presiona la tecla 'q' en la ventana de la cámara para salir.")
     
-    model.predict(source="0", show=True, conf=0.9)
+    model.predict(source="0", show=True, conf=0.6)
 
 if __name__ == '__main__':
     main()
