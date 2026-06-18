@@ -7,10 +7,10 @@ def main():
     
     results = model.train(
         
-        data="Objec_detection_Yolo.v2-visionv2.yolov11/data.yaml", 
-        epochs=100,                
+        data="Objec_detection_Yolo.v3-visionv3.yolov11/data.yaml", 
+        epochs=150,                
         imgsz=640,                
-        batch=8,                   
+        batch=32,                   
         name="modelo_entrenado"    
     )
 
