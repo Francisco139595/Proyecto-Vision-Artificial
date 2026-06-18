@@ -8,7 +8,7 @@ def main():
     results = model.train(
         
         data="Objec_detection_Yolo.v3-visionv3.yolov11/data.yaml", 
-        epochs=150,                
+        epochs=300,                
         imgsz=640,                
         batch=32,                   
         name="modelo_entrenado"    
